@@ -26,6 +26,8 @@ const createEventSchema = Joi.object({
 name: Joi.string().required(),
 description: Joi.string().required(),
 participants: Joi.string().required(),
+date: Joi.string().required(),
+organizer: Joi.string().required(),
 })
 
 const schemas = {createEventSchema,
