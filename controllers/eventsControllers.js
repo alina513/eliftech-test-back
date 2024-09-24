@@ -7,7 +7,6 @@ const getAllEvents = async (req, res) => {
   res.json(result);
 };
 
-
 module.exports = {
   getAllEvents: ctrlWrapper(getAllEvents),
 };
